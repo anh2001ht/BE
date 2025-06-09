@@ -1,0 +1,4 @@
+dotnet ef dbcontext scaffold "Server=D-OS3-ANHNH49\SQLEXPRESS;Database=ecommerce_db;User=sa;Password=01012001;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --context ApplicationDbContext --output-dir ../ECommerce.Domain/Entities --context-dir Contexts --project ECommerce.Persistence --startup-project ECommerce.API --no-onconfiguring --use-database-names
+
+
+dotnet ef dbcontext scaffold "Server=D-OS3-ANHNH49\SQLEXPRESS;Database=ecommerce_db;User=sa;Password=01012001;Trusted_Connection=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer --context ApplicationDbContext --output-dir ../ECommerce.Domain/Entities --context-dir Contexts --project ECommerce.Persistence --startup-project ECommerce.API --no-onconfiguring --use-database-names --force
